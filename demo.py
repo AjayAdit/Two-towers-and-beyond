@@ -39,7 +39,6 @@ franka.set_dofs_force_range(
 
 print("[INFO] ✅ Scene and Franka ready.")
 
-
 # ------------------------------------------------------
 # 3️⃣ Move to initial hover pose
 # ------------------------------------------------------
@@ -91,6 +90,7 @@ print("\n[EXECUTION] ▶ Starting plan execution...\n")
 
 for (action, args) in plan_steps:
     try:
+        print(f"\n[EXEC] ▶ Action: ({action} {' '.join(args)})")  # <-- ADD THIS LINE
         if action == "pick":
             obj = BlocksState[args[0]]
             pos = obj.get_pos().cpu().numpy()
@@ -100,7 +100,9 @@ for (action, args) in plan_steps:
             top = BlocksState[args[0]]
             bottom = BlocksState[args[1]]
             place_pos = bottom.get_pos().cpu().numpy().copy()
-            place_pos[2] += 0.05  # stack height offset
+            place_pos[2] += 0.12 # stack height offset
+            print(f"[DEBUG][STACK] Goal place position for {args[0]} on {args[1]} → {place_pos}")
+            print(f"[DEBUG][STACK-Z] bottom_z={bottom.get_pos().cpu().numpy()[2]:.4f}, target_z={place_pos[2]:.4f}")
             franka.place(place_pos, obj=top)
 
         elif action == "unstack":
@@ -111,7 +113,8 @@ for (action, args) in plan_steps:
 
         elif action == "putdown":
             obj = BlocksState[args[0]]
-            drop_pos = np.array([0.55, 0.0, 0.025])
+            drop_pos = np.array([0.55, 0.0, 0.05])
+            print(f"[DEBUG][PUTDOWN] Goal drop position for {args[0]} → {drop_pos}")
             franka.place(drop_pos, obj=obj)
 
     except Exception as e:

@@ -109,6 +109,7 @@ class RobotAdapter:
         self._attached_offset_world = obj_pos - hand_pos
         self.attached_object = obj
 
+
         # Soften collisions if API exists (varies by Genesis version)
         if hasattr(obj, "set_collision_enabled"):
             try: obj.set_collision_enabled(False)
@@ -154,13 +155,19 @@ class RobotAdapter:
             return
         hand = self.get_link("hand")
         hand_pos = hand.get_pos().cpu().numpy()
-        target = hand_pos + self._attached_offset_world
+        hand_quat = hand.get_quat().cpu().numpy()
+
+        target_pos = hand_pos + self._attached_offset_world
         try:
-            self.attached_object.set_pos(target)
-        except Exception:
-            # Some Genesis versions require set_pose or similar — fall back if needed
+            # lock both position and orientation
             if hasattr(self.attached_object, "set_pose"):
-                self.attached_object.set_pose(pos=target)
+                self.attached_object.set_pose(pos=target_pos, quat=hand_quat)
+            else:
+                self.attached_object.set_pos(target_pos)
+                if hasattr(self.attached_object, "set_quat"):
+                    self.attached_object.set_quat(hand_quat)
+        except Exception as e:
+            print(f"[WARN] Pose sync failed: {e}")
 
     # ------------------------------------------------------------------
     # Motion
@@ -170,27 +177,35 @@ class RobotAdapter:
         self.print_ee_pose("Before move_to_pose()")
         qpos_start = self.get_qpos()
 
+        # --- safety fallback: initialize if missing ---
+        if not hasattr(self, "attached_geom_indices"):
+            self.attached_geom_indices = []
+
         # --- auto ignore heuristic ---
         fingers = qpos_start[-2:]
         if hasattr(fingers, "cpu"):  # convert torch.Tensor → numpy
             fingers = fingers.detach().cpu().numpy()
         gripper_closed = np.all(fingers < 0.01)
-
-        auto_ignore = (getattr(self, "attached_object", None) is not None) or gripper_closed
-        use_ignore = ignore_collisions or auto_ignore
+        print(f"[DEBUG] attached_object: {self.attached_object}")
+        # auto_ignore = (getattr(self, "attached_object", None) is not None)  #or gripper_closed
+        # use_ignore = ignore_collisions or auto_ignore
+        auto_ignore = False
+        use_ignore = ignore_collisions
+        print(f"[DEBUG] move_to_pose(): ignore_collisions={ignore_collisions}, auto_ignore={auto_ignore} => use_ignore={use_ignore}")
 
         if use_ignore:
             print("[DEBUG] Ignoring collisions during motion planning (grasp context).")
             from planning import PlannerInterface
             planner_interface = PlannerInterface(self.robot, self.scene)
-            planner_interface._is_ompl_state_valid = lambda s: True
+            # planner_interface._is_ompl_state_valid = lambda s: True
             path = planner_interface.plan_path(
                 qpos_goal=qpos_goal,
                 qpos_start=qpos_start,
                 num_waypoints=steps,
+                attached_object=self.attached_object,
             )
         else:
-            path = self.plan_path(qpos_goal=qpos_goal, num_waypoints=steps)
+            path = self.plan_path(qpos_goal=qpos_goal, num_waypoints=steps,attached_object=self.attached_object,)
 
         if len(path) == 0:
             print("[WARN] OMPL returned empty path; executing direct control to goal.")
@@ -231,6 +246,7 @@ class RobotAdapter:
         """
         self.print_ee_pose("Before post_grasp_pose()")
         retreat_pos = pos - approach_dir * offset
+        print(f"[DEBUG] Post-grasp position: {retreat_pos}")
         qpos_postgrasp = self.inverse_kinematics(
             link=self.get_link("hand"),
             pos=retreat_pos,
@@ -281,21 +297,25 @@ class RobotAdapter:
         """
         self.print_ee_pose("Before place()")
 
-        # Move above target
-        q_place = self.inverse_kinematics(link=self.get_link("hand"), pos=pos, quat=quat)
-        self.move_to_pose(q_place, steps=200)
-
-        self.open_gripper()
+        pos_drop = pos.copy()
+        
+        pos_drop[2] += 0.10  # 10 cm above
+        q_drop = self.inverse_kinematics(link=self.get_link("hand"), pos=pos_drop, quat=quat)
+        self.move_to_pose(q_drop, steps=200)
+        time.sleep(0.1)
 
         # Detach whichever applies
         if obj is not None and obj is self.attached_object:
             self.detach_object()
         elif obj is None and self.attached_object is not None:
             self.detach_object()
+             
+        self.open_gripper()
 
-        # Retreat (now without attached object; normal collision checking resumes)
-        self.post_grasp_pose(pos, quat)
         self.print_ee_pose("After place()")
+
+
+        
 
     # ------------------------------------------------------------------
     # Raw object access

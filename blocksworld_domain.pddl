@@ -8,6 +8,7 @@
     (clear ?x - block)
     (handempty)
     (holding ?x - block)
+    (moved ?x)
   )
 
   (:action pick
@@ -25,7 +26,9 @@
     :effect (and (ontable ?x)
                  (clear ?x)
                  (handempty)
-                 (not (holding ?x)))
+                 (not (holding ?x))
+                 (moved ?x)
+    )
   )
 
   (:action stack
