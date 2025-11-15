@@ -1,0 +1,12 @@
+(define (problem two_blocks_move)
+        (:domain blocksworld)
+        (:objects r g - block)
+        (:init
+                (clear g)
+        (clear r)
+        (handempty)
+        (ontable g)
+        (ontable r)
+        )
+        (:goal (and (moved r) (moved g)))
+        )

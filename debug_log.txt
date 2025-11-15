@@ -1,0 +1,4057 @@
+[INFO] ✅ Genesis initialized successfully.
+[38;5;226m[Genesis] [21:35:59] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [21:35:59] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [21:35:59] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [21:35:59] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;226m[Genesis] [21:36:00] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [21:36:00] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 377, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[INFO]  Scene and Franka ready.
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 150
+[DEBUG][RobotAdapter] OMPL returned 150 waypoints
+[INFO] ✅ Reached hover pose.
+
+[INFO] Reading plan from test.pddl.soln...
+[INFO]  Loaded 4 actions:
+  01. (pick r)
+  02. (putdown r)
+  03. (pick g)
+  04. (putdown g)
+
+[EXECUTION] ▶ Starting plan execution...
+
+[EXEC] Picking r at [0.64535666 0.00874897 0.01997269]
+
+[POSE] Before pick()
+  Position : [0.6577 0.0069 0.2857]
+  Quaternion: [-0.03    0.9994  0.0136 -0.0035]
+
+[POSE] Before pre_grasp_pose()
+  Position : [0.6577 0.0069 0.2857]
+  Quaternion: [-0.03    0.9994  0.0136 -0.0035]
+[DEBUG] Pre-grasp position: [0.64535666 0.00874897 0.23997269]
+
+[POSE] Before move_to_pose()
+  Position : [0.6577 0.0069 0.2857]
+  Quaternion: [-0.03    0.9994  0.0136 -0.0035]
+[DEBUG] attached_object: None
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 300
+[DEBUG][RobotAdapter] OMPL returned 300 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.6431 0.0092 0.2339]
+  Quaternion: [ 8.0e-04  1.0e+00  8.0e-04 -7.2e-03]
+
+[POSE] After pre_grasp_pose()
+  Position : [0.6431 0.0092 0.2339]
+  Quaternion: [ 8.0e-04  1.0e+00  8.0e-04 -7.2e-03]
+
+[POSE] Before open_gripper()
+  Position : [0.6431 0.0092 0.2339]
+  Quaternion: [ 8.0e-04  1.0e+00  8.0e-04 -7.2e-03]
+
+[POSE] After open_gripper()
+  Position : [0.6407 0.0096 0.2275]
+  Quaternion: [ 0.0023  0.9999  0.0011 -0.0134]
+
+[POSE] Before move_to_pose()
+  Position : [0.6407 0.0096 0.2275]
+  Quaternion: [ 0.0023  0.9999  0.0011 -0.0134]
+[DEBUG] attached_object: None
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (8 pairs). Checking filtering logic...
+[DEBUG][VALIDITY]  Collisions found — no attached object, so state is invalid.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 200
+[DEBUG][RobotAdapter] OMPL returned 200 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.6417 0.0091 0.1366]
+  Quaternion: [ 1.8e-03  1.0e+00  6.0e-04 -7.9e-03]
+
+[POSE] Before close_gripper()
+  Position : [0.6417 0.0091 0.1366]
+  Quaternion: [ 1.8e-03  1.0e+00  6.0e-04 -7.9e-03]
+
+[POSE] After close_gripper()
+  Position : [0.6385 0.0091 0.1301]
+  Quaternion: [ 3.100e-03  9.999e-01  9.000e-04 -1.410e-02]
+[INFO] Attached object to gripper.
+
+[POSE] Before move_to_pose()
+  Position : [0.6385 0.0091 0.1301]
+  Quaternion: [ 3.100e-03  9.999e-01  9.000e-04 -1.410e-02]
+[DEBUG] attached_object: <gs.RigidEntity>
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG][VALIDITY]  Collisions detected (32 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 32 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (32 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 32 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (1 pairs). Checking filtering logic...
+[DEBUG][FILTER] ❌ Found 1 non-finger collisions (invalid state):
+    plane_baselink ↔ left_finger
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (32 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 32 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (1 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 1 finger↔cube collisions:
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 200
+[DEBUG][RobotAdapter] OMPL returned 200 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.6439 0.0101 0.2756]
+  Quaternion: [ 0.0024  1.      0.0011 -0.0072]
+
+[POSE] After pick()
+  Position : [0.6439 0.0101 0.2756]
+  Quaternion: [ 0.0024  1.      0.0011 -0.0072]
+
+[EXECUTION] ▶ Starting place execution...
+
+[EXEC] Putting down r at [ 0.55 -0.05  0.15]
+
+[POSE] Before place()
+  Position : [0.6439 0.0101 0.2756]
+  Quaternion: [ 0.0024  1.      0.0011 -0.0072]
+
+[POSE] Before move_to_pose()
+  Position : [0.6439 0.0101 0.2756]
+  Quaternion: [ 0.0024  1.      0.0011 -0.0072]
+[DEBUG] attached_object: <gs.RigidEntity>
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (1 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 1 finger↔cube collisions:
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (16 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 16 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (16 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 16 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 5 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (8 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 8 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 5 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (8 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 8 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 200
+[DEBUG][RobotAdapter] OMPL returned 200 waypoints
+
+[POSE] After move_to_pose()
+  Position : [ 0.5525 -0.0469  0.1496]
+  Quaternion: [-4.0e-04  1.0e+00  8.0e-04 -6.1e-03]
+
+[POSE] Before post_grasp_pose()
+  Position : [ 0.5525 -0.0469  0.1496]
+  Quaternion: [-4.0e-04  1.0e+00  8.0e-04 -6.1e-03]
+[DEBUG] Post-grasp position: [ 0.55 -0.05  0.25]
+
+[POSE] Before move_to_pose()
+  Position : [ 0.5525 -0.0469  0.1496]
+  Quaternion: [-4.0e-04  1.0e+00  8.0e-04 -6.1e-03]
+[DEBUG] attached_object: <gs.RigidEntity>
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (22 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 22 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (7 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 7 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (17 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 17 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (22 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 22 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (20 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 20 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (20 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 20 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (8 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 8 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (17 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 17 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (22 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 22 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (20 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 20 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (13 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 13 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 300
+[DEBUG][RobotAdapter] OMPL returned 300 waypoints
+
+[POSE] After move_to_pose()
+  Position : [ 0.5478 -0.0491  0.2428]
+  Quaternion: [ 2.0e-03  1.0e+00  6.0e-04 -5.5e-03]
+
+[POSE] After post_grasp_pose()
+  Position : [ 0.5478 -0.0491  0.2428]
+  Quaternion: [ 2.0e-03  1.0e+00  6.0e-04 -5.5e-03]
+[INFO] Detached object from gripper.
+
+[POSE] After place()
+  Position : [ 0.5478 -0.0491  0.2428]
+  Quaternion: [ 2.0e-03  1.0e+00  6.0e-04 -5.5e-03]
+
+[POSE] Before open_gripper()
+  Position : [ 0.5478 -0.0491  0.2428]
+  Quaternion: [ 2.0e-03  1.0e+00  6.0e-04 -5.5e-03]
+
+[POSE] After open_gripper()
+  Position : [ 0.5457 -0.0486  0.2387]
+  Quaternion: [ 0.0033  0.9999  0.0011 -0.0104]
+[EXEC] Picking g at [0.66543204 0.21126005 0.01997269]
+
+[POSE] Before pick()
+  Position : [ 0.5457 -0.0486  0.2387]
+  Quaternion: [ 0.0033  0.9999  0.0011 -0.0104]
+
+[POSE] Before pre_grasp_pose()
+  Position : [ 0.5457 -0.0486  0.2387]
+  Quaternion: [ 0.0033  0.9999  0.0011 -0.0104]
+[DEBUG] Pre-grasp position: [0.66543204 0.21126005 0.23997269]
+
+[POSE] Before move_to_pose()
+  Position : [ 0.5457 -0.0486  0.2387]
+  Quaternion: [ 0.0033  0.9999  0.0011 -0.0104]
+[DEBUG] attached_object: None
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 300
+[DEBUG][RobotAdapter] OMPL returned 300 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.6616 0.2015 0.232 ]
+  Quaternion: [ 0.0044  1.     -0.     -0.0065]
+
+[POSE] After pre_grasp_pose()
+  Position : [0.6616 0.2015 0.232 ]
+  Quaternion: [ 0.0044  1.     -0.     -0.0065]
+
+[POSE] Before open_gripper()
+  Position : [0.6616 0.2015 0.232 ]
+  Quaternion: [ 0.0044  1.     -0.     -0.0065]
+
+[POSE] After open_gripper()
+  Position : [0.6591 0.2012 0.2242]
+  Quaternion: [ 7.600e-03  9.999e-01  2.000e-04 -1.280e-02]
+
+[POSE] Before move_to_pose()
+  Position : [0.6591 0.2012 0.2242]
+  Quaternion: [ 7.600e-03  9.999e-01  2.000e-04 -1.280e-02]
+[DEBUG] attached_object: None
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (2 pairs). Checking filtering logic...
+[DEBUG][VALIDITY]  Collisions found — no attached object, so state is invalid.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 200
+[DEBUG][RobotAdapter] OMPL returned 200 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.6615 0.2098 0.1348]
+  Quaternion: [ 4.1e-03  1.0e+00  2.0e-04 -7.9e-03]
+
+[POSE] Before close_gripper()
+  Position : [0.6615 0.2098 0.1348]
+  Quaternion: [ 4.1e-03  1.0e+00  2.0e-04 -7.9e-03]
+
+[POSE] After close_gripper()
+  Position : [0.6583 0.2088 0.127 ]
+  Quaternion: [ 7.100e-03  9.999e-01  2.000e-04 -1.410e-02]
+[INFO] Attached object to gripper.
+
+[POSE] Before move_to_pose()
+  Position : [0.6583 0.2088 0.127 ]
+  Quaternion: [ 7.100e-03  9.999e-01  2.000e-04 -1.410e-02]
+[DEBUG] attached_object: <gs.RigidEntity>
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG][VALIDITY]  Collisions detected (29 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 29 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (29 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 29 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (29 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 29 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 200
+[DEBUG][RobotAdapter] OMPL returned 200 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.6636 0.2118 0.2734]
+  Quaternion: [ 4.2e-03  1.0e+00  7.0e-04 -7.5e-03]
+
+[POSE] After pick()
+  Position : [0.6636 0.2118 0.2734]
+  Quaternion: [ 4.2e-03  1.0e+00  7.0e-04 -7.5e-03]
+
+[EXECUTION] ▶ Starting place execution...
+
+[EXEC] Putting down g at [0.55 0.05 0.15]
+
+[POSE] Before place()
+  Position : [0.6636 0.2118 0.2734]
+  Quaternion: [ 4.2e-03  1.0e+00  7.0e-04 -7.5e-03]
+
+[POSE] Before move_to_pose()
+  Position : [0.6636 0.2118 0.2734]
+  Quaternion: [ 4.2e-03  1.0e+00  7.0e-04 -7.5e-03]
+[DEBUG] attached_object: <gs.RigidEntity>
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 5 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (19 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 19 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 5 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (23 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 23 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (20 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 20 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (20 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 20 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (15 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 15 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (15 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 15 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (20 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 20 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (23 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 23 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (15 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 15 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (9 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 9 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (1 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 1 finger↔cube collisions:
+    box_baselink ↔ hand
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (11 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 11 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 5 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (1 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 1 finger↔cube collisions:
+    box_baselink ↔ hand
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG][VALIDITY]  Collisions detected (11 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 11 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 5 finger↔cube collisions:
+    box_baselink ↔ hand
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+Number of waypoints in path: 200
+[DEBUG][RobotAdapter] OMPL returned 200 waypoints
+
+[POSE] After move_to_pose()
+  Position : [0.5548 0.0569 0.149 ]
+  Quaternion: [-3.e-04  1.e+00  6.e-04 -6.e-03]
+
+[POSE] Before post_grasp_pose()
+  Position : [0.5548 0.0569 0.149 ]
+  Quaternion: [-3.e-04  1.e+00  6.e-04 -6.e-03]
+[DEBUG] Post-grasp position: [0.55 0.05 0.25]
+
+[POSE] Before move_to_pose()
+  Position : [0.5548 0.0569 0.149 ]
+  Quaternion: [-3.e-04  1.e+00  6.e-04 -6.e-03]
+[DEBUG] attached_object: <gs.RigidEntity>
+[DEBUG] move_to_pose(): ignore_collisions=False, auto_ignore=False => use_ignore=False
+[DEBUG][RobotAdapter] plan_path() called
+[DEBUG][RobotAdapter] Forwarding to PlannerInterface.plan_path()
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (31 pairs). Checking filtering logic...
+[DEBUG][FILTER] ❌ Found 31 non-finger collisions (invalid state):
+    plane_baselink ↔ hand
+    box_baselink ↔ hand
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (21 pairs). Checking filtering logic...
+[DEBUG][FILTER] ❌ Found 21 non-finger collisions (invalid state):
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+    box_baselink ↔ left_finger
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (32 pairs). Checking filtering logic...
+[DEBUG][FILTER] ❌ Found 32 non-finger collisions (invalid state):
+    plane_baselink ↔ hand
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ right_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+    plane_baselink ↔ left_finger
+[DEBUG][VALIDITY]  Collisions detected (5 pairs). Checking filtering logic...
+[DEBUG][FILTER] ❌ Found 5 non-finger collisions (invalid state):
+    plane_baselink ↔ hand
+    plane_baselink ↔ link7
+    plane_baselink ↔ link7
+    plane_baselink ↔ link7
+    plane_baselink ↔ link6
+[DEBUG][VALIDITY]  Collisions detected (1 pairs). Checking filtering logic...
+[DEBUG][FILTER] ❌ Found 1 non-finger collisions (invalid state):
+    plane_baselink ↔ hand
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (13 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 13 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (4 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 4 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG][VALIDITY]  Collisions detected (15 pairs). Checking filtering logic...
+[DEBUG][FILTER] ✅ Ignored 15 finger↔cube collisions:
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+    box_baselink ↔ right_finger
+[DEBUG][FILTER] ✅ All collisions are valid (filtered safely).
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.
+[DEBUG] No collisions detected.

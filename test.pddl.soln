@@ -1,0 +1,4 @@
+(pick r)
+(putdown r)
+(pick g)
+(putdown g)
