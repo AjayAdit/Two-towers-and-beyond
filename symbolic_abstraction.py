@@ -1,15 +1,11 @@
-"""Symbolic Abstraction Module (Person 2 - TAMP Project)
+"""Symbolic abstraction: continuous scene geometry -> discrete PDDL predicates.
 
-This module converts continuous scene geometry into discrete PDDL predicates.
-It implements the "lifting" operation that bridges the continuous world state
-to symbolic task planning.
+This is the "lifting" step of the TAMP loop. It reports what it OBSERVES, never what
+was intended: holding is ground-truthed against the gripper's attachment state, and a
+block that is neither on the table nor cleanly on another block is reported as neither.
 
-For Goal 1: Build two towers
-  - Tower 1: RED-GREEN-BLUE (top to bottom)
-  - Tower 2: YELLOW-MAGENTA-CYAN (top to bottom)
-
-Author: Person 2
-Date: 2024
+Emits (ontable ?x), (on ?x ?y), (clear ?x), (holding ?x), (handempty), plus
+(at-position ?x ?p) and (position-free ?p) for goal 4.
 """
 
 from typing import Dict, Set, Tuple, Any
@@ -181,32 +177,6 @@ def is_holding(block_name: str,
 
     return is_holding_block
 
-
-
-def is_handempty(gripper_pos: np.ndarray, gripper_closed: bool,
-                 all_block_positions: Dict[str, np.ndarray],
-                 threshold: float = HOLDING_THRESHOLD) -> bool:
-    """Check if the robot gripper is empty (not holding anything).
-
-    Args:
-        gripper_pos: [x, y, z] position of gripper
-        gripper_closed: True if gripper is closed
-        all_block_positions: Dictionary of all block positions
-        threshold: Distance tolerance
-
-    Returns:
-        True if gripper is not holding any block, False otherwise
-    """
-    # If gripper is open, it's definitely empty
-    if not gripper_closed:
-        return True
-
-    # Even if closed, check if it's actually holding any block
-    for block_name, block_pos in all_block_positions.items():
-        if is_holding(block_name, gripper_pos, block_pos, gripper_closed, threshold):
-            return False
-
-    return True
 
 
 def abstract_state(scene: Any, robot: Any, blocks_state: Dict[str, Any],
@@ -427,144 +397,3 @@ def visualize_predicates(predicates: Set[Tuple], title: str = "Current State") -
     print(f"{'='*60}\n")
 
 
-def visualize_ascii_blocks(predicates: Set[Tuple]) -> None:
-    """Generate ASCII art representation of block configuration.
-
-    Args:
-        predicates: Set of predicate tuples
-    """
-    print("\nASCII Block Configuration:")
-    print("-" * 40)
-
-    # Build tower structure from predicates
-    on_relations = {p[1]: p[2] for p in predicates if p[0] == "on"}
-    ontable = {p[1] for p in predicates if p[0] == "ontable"}
-
-    # Find all towers (blocks on table are roots)
-    towers = []
-    for root in ontable:
-        tower = [root]
-        current = root
-        # Build tower upward
-        while True:
-            # Find what's on current
-            found = None
-            for top, bottom in on_relations.items():
-                if bottom == current:
-                    found = top
-                    break
-            if found:
-                tower.append(found)
-                current = found
-            else:
-                break
-        towers.append(tower)
-
-    # Print towers
-    if not towers:
-        print("  No towers (all blocks scattered or held)")
-    else:
-        for i, tower in enumerate(towers, 1):
-            print(f"\n  Tower {i}:")
-            for j, block in enumerate(reversed(tower)):
-                indent = "    "
-                print(f"{indent}[{block.upper()}]")
-                if j < len(tower) - 1:
-                    print(f"{indent} | ")
-
-    print("-" * 40 + "\n")
-
-
-def log_predicate_changes(old_predicates: Set[Tuple], new_predicates: Set[Tuple]) -> None:
-    """Log changes in predicates between two states.
-
-    Useful for debugging and tracking state evolution during execution.
-
-    Args:
-        old_predicates: Previous state predicates
-        new_predicates: Current state predicates
-    """
-    added = new_predicates - old_predicates
-    removed = old_predicates - new_predicates
-
-    if not added and not removed:
-        print("No changes in predicates.")
-        return
-
-    print("\n" + "="*60)
-    print("PREDICATE CHANGES")
-    print("="*60)
-
-    if added:
-        print("\nADDED:")
-        for pred in sorted(added):
-            print(f"  + {pred}")
-
-    if removed:
-        print("\nREMOVED:")
-        for pred in sorted(removed):
-            print(f"  - {pred}")
-
-    print("="*60 + "\n")
-
-
-# Helper function for tuning thresholds
-def debug_spatial_relationships(blocks_state: Dict[str, Any], robot: Any) -> None:
-    """Debug tool to print all spatial relationships and distances.
-
-    Useful for experimentally tuning threshold values.
-
-    Args:
-        blocks_state: Dictionary of block entities
-        robot: RobotAdapter instance
-    """
-    positions = get_block_positions(blocks_state)
-    gripper_pos, gripper_closed = get_gripper_state(robot)
-
-    print("\n" + "="*60)
-    print("SPATIAL DEBUG INFO")
-    print("="*60)
-
-    print(f"\nGripper: pos={gripper_pos}, closed={gripper_closed}")
-
-    print("\nBlock positions:")
-    for name, pos in sorted(positions.items()):
-        print(f"  {name.upper()}: {pos}")
-
-    print("\nTable height checks:")
-    for name, pos in sorted(positions.items()):
-        expected = TABLE_HEIGHT + BLOCK_HALF_HEIGHT
-        diff = abs(pos[2] - expected)
-        on_table = is_on_table(pos)
-        print(f"  {name.upper()}: z={pos[2]:.4f}, expected={expected:.4f}, diff={diff:.4f}, on_table={on_table}")
-
-    print("\nPairwise 'on' relationships:")
-    block_names = sorted(positions.keys())
-    for i, name_a in enumerate(block_names):
-        for name_b in block_names[i+1:]:
-            pos_a = positions[name_a]
-            pos_b = positions[name_b]
-
-            xy_dist = np.linalg.norm(pos_a[:2] - pos_b[:2])
-            z_diff = pos_a[2] - pos_b[2]
-
-            on_ab = is_on(pos_a, pos_b)
-            on_ba = is_on(pos_b, pos_a)
-
-            if on_ab or on_ba or xy_dist < 0.05:  # Show close blocks
-                print(f"  {name_a.upper()}-{name_b.upper()}: xy_dist={xy_dist:.4f}, z_diff={z_diff:.4f}")
-                if on_ab:
-                    print(f"    -> {name_a.upper()} is ON {name_b.upper()}")
-                if on_ba:
-                    print(f"    -> {name_b.upper()} is ON {name_a.upper()}")
-
-    print("="*60 + "\n")
-
-
-if __name__ == "__main__":
-    print("Symbolic Abstraction Module - Person 2")
-    print("This module should be imported and used with Genesis scenes.")
-    print("\nExample usage:")
-    print("  from symbolic_abstraction import abstract_state, visualize_predicates")
-    print("  predicates = abstract_state(scene, robot, blocks_state)")
-    print("  visualize_predicates(predicates)")

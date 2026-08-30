@@ -71,6 +71,29 @@
     )
   )
 
+  ;; Fallback: put a held block down on any free patch of table (no named position).
+  ;;
+  ;; Without this the domain deadlocks on recovery: a block placed slightly off its
+  ;; named position reads as plain (on ?x ?y) / (ontable ?x) with no at-position fact,
+  ;; and once the planner unstacks such a block the hand can never open again --
+  ;; putdown-at demands an allowed table position (a _top block has none) and stack-at
+  ;; demands the support already be at-position (impossible while the hand is full).
+  ;; Observed: y4 on y2, both ~6 mm off pos_r1_c3, made the whole problem unsolvable
+  ;; under both EHC and A*. The physical robot can always put a block on an empty
+  ;; patch of table; the executive grounds this with find_free_table_spot().
+  (:action putdown
+    :parameters (?x - block)
+    :precondition (and
+      (holding ?x)
+    )
+    :effect (and
+      (ontable ?x)
+      (clear ?x)
+      (handempty)
+      (not (holding ?x))
+    )
+  )
+
   ;; Unstack from specific position - position-aware
   ;; For blocks at designated positions with allowed-position constraints
   (:action unstack-at

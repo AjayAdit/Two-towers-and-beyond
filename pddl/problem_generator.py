@@ -50,7 +50,9 @@ def get_goal_predicates(goal_id: int) -> Set[Tuple]:
         }
 
     elif goal_id == 2:
-        # Goal 2: 6-block tower (top→bottom: M-Y-B-R-G-C)
+        # Goal 2: 5-block tower, per the assignment: top→bottom M-Y-B-R-G.
+        # (The comment here used to say "6-block ... M-Y-B-R-G-C", which contradicted
+        # both the predicates below and the spec. Cyan is deliberately not used.)
         return {
             ("ontable", "g"),
             ("on", "r", "g"),

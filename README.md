@@ -15,7 +15,7 @@ python3 demo.py --goal 1
 # Goal 1 from Scene 2 (pre-stacked tower)
 python3 demo.py --goal 1 --scene 2
 
-# Goal 2: Build single 6-block tower
+# Goal 2: Build single 5-block tower (top→bottom: MAGENTA-YELLOW-BLUE-RED-GREEN)
 python3 demo.py --goal 2
 
 # Goal 2 from Scene 2 (pre-stacked tower)

@@ -10,6 +10,7 @@ random.seed(time.time())
 
 import numpy as np
 import genesis as gs
+import recording
 from robot_adapter import RobotAdapter
 
 
@@ -22,8 +23,11 @@ def _build_base_scene(camera_pos=(3, -1, 1.5), camera_lookat=(0.0, 0.0, 0.5)) ->
             camera_fov=30,
             max_FPS=60,
         ),
-        show_viewer=True,
+        show_viewer=not recording.is_headless(),
     )
+    # Offscreen recording camera, framed like the viewer. No-op unless recording
+    # was configured by the entry point; must be added before scene.build().
+    recording.attach_camera(scene, pos=camera_pos, lookat=camera_lookat, fov=30)
     return scene
 
 def _elevate_robot_base(franka: Any) -> None:
@@ -93,7 +97,12 @@ def create_scene_6blocks() -> Tuple[Any, Any, Dict[str, Any], Any]:
         surface=gs.options.surfaces.Plastic(color=(0, 1.0, 1.0)),
     )
 
-    franka_raw = scene.add_entity(gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"))
+    franka_raw = scene.add_entity(
+        gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"),
+        # The real Panda compensates gravity in its controller. Without this joint 2
+        # sags 0.0158 rad below every command, swamping millimetre corrections.
+        material=gs.materials.Rigid(gravity_compensation=1.0),
+    )
     franka = RobotAdapter(franka_raw, scene)
 
     # build scene (construct physics/visuals)
@@ -145,7 +154,12 @@ def create_scene_stacked() -> Tuple[Any, Any, Dict[str, Any], Any]:
         surface=gs.options.surfaces.Plastic(color=(0, 1.0, 1.0)),
     )
 
-    franka_raw = scene.add_entity(gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"))
+    franka_raw = scene.add_entity(
+        gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"),
+        # The real Panda compensates gravity in its controller. Without this joint 2
+        # sags 0.0158 rad below every command, swamping millimetre corrections.
+        material=gs.materials.Rigid(gravity_compensation=1.0),
+    )
     franka = RobotAdapter(franka_raw, scene)
     scene.build()
 
@@ -220,7 +234,12 @@ def create_scene_8blocks() -> Tuple[Any, Any, Dict[str, Any]]:
         surface=gs.options.surfaces.Plastic(color=(0.5, 0.0, 0.5)),  # Purple
     )
 
-    franka_raw = scene.add_entity(gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"))
+    franka_raw = scene.add_entity(
+        gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"),
+        # The real Panda compensates gravity in its controller. Without this joint 2
+        # sags 0.0158 rad below every command, swamping millimetre corrections.
+        material=gs.materials.Rigid(gravity_compensation=1.0),
+    )
     franka = RobotAdapter(franka_raw, scene)
 
     # build scene (construct physics/visuals)
@@ -303,7 +322,12 @@ def create_scene_goal4_initial() -> Tuple[Any, Any, Dict[str, Any]]:
         blocks_state[block_name] = cube
 
     # Add robot
-    franka_raw = scene.add_entity(gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"))
+    franka_raw = scene.add_entity(
+        gs.morphs.MJCF(file="xml/franka_emika_panda/panda.xml"),
+        # The real Panda compensates gravity in its controller. Without this joint 2
+        # sags 0.0158 rad below every command, swamping millimetre corrections.
+        material=gs.materials.Rigid(gravity_compensation=1.0),
+    )
     franka = RobotAdapter(franka_raw, scene)
 
     # Build scene

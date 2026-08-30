@@ -234,7 +234,7 @@ class PlannerInterface:
         if not self.attached_object:
             return False
 
-        # Use filtered logic but skip spammy logs — only print once per plan
+        # Use filtered logic but skip spammy logs, only print once per plan
         if not hasattr(self, "_debug_validity_logged"):
             self._debug_validity_logged = False
 

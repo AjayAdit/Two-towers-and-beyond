@@ -1,26 +1,114 @@
+# ---------------------------------------------------------------------------
 # Python
+# ---------------------------------------------------------------------------
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 .Python
 *.so
 *.egg
 *.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
 
-# PDDL solution files (temporary)
+# ---------------------------------------------------------------------------
+# Generated PDDL artifacts
+#
+# problem_generator.make_problem_pddl() writes pddl/<problem_name>_goal<N>.pddl
+# on every planning call, and task_planner writes the matching .soln next to it.
+# These are BUILD OUTPUT, not source. The two hand-written domains are kept.
+# ---------------------------------------------------------------------------
+pddl/*.soln
 *.soln
 *.pddl.soln
 
-# IDE
+pddl/demo_goal_goal*.pddl
+pddl/goal41_step*.pddl
+pddl/goal42_step*.pddl
+pddl/test_goal*.pddl
+pddl/*_goal[0-9]*.pddl
+
+# Keep the hand-authored domains (negated last so they always win)
+!pddl/domain_blocks.pddl
+!pddl/domain_blocks_goal4.pddl
+
+# ---------------------------------------------------------------------------
+# Simulation run output: videos, frames, logs, metrics
+# Everything a headless verification run produces lands under runs/
+# ---------------------------------------------------------------------------
+runs/
+videos/
+frames/
+recordings/
+*.mp4
+*.avi
+*.gif
+*.webm
+
+# ...but the goal result videos are deliverables, not run artifacts
+!outputs/
+!outputs/*.mp4
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+!docs/**/*.jpg
+
+*.log
+*.log.*
+logs/
+nohup.out
+
+# ---------------------------------------------------------------------------
+# Genesis / simulator caches
+# ---------------------------------------------------------------------------
+.genesis/
+genesis_cache/
+~/.cache/genesis/
+*.usd
+*.usda
+*.gltf.cache
+
+# ---------------------------------------------------------------------------
+# Claude Code — share project config, keep machine-local state private
+# ---------------------------------------------------------------------------
+.claude/settings.local.json
+.claude/state/
+.claude/scratch/
+
+# ---------------------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------------------
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Genesis/Simulation
-*.log
-
-# OS
+*~
 .DS_Store
 Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Scratch
+# ---------------------------------------------------------------------------
+scratch/
+tmp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Claude Code project instructions (local only)
+CLAUDE.md
+
+# Claude Code agent config (local only)
+.claude/
+STATE.md

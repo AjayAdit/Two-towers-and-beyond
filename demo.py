@@ -12,9 +12,11 @@ Usage:
 """
 
 import argparse
+import os
 import numpy as np
 import genesis as gs
 
+import recording
 from scenes import (
     create_scene_6blocks,
     create_scene_stacked,
@@ -77,6 +79,59 @@ def print_block_positions(BlocksState, goal_id=1, label="[BLOCK POS]"):
     print()
 
 
+# 8 cm between centres leaves a 4 cm gap, clearing the open gripper (span 0.08 m).
+# Reach band from a measured workspace sweep: top-down grasp reaches ~0.79 m.
+PUTDOWN_CLEARANCE = 0.08
+PUTDOWN_R_MIN = 0.32
+PUTDOWN_R_MAX = 0.72
+TABLE_BLOCK_Z = BLOCK_SIZE / 2  # a 4 cm block resting on the table has its centre at 0.02
+
+
+def find_free_table_spot(BlocksState, moving_block):
+    """Pick a clear, reachable spot on the table to put `moving_block` down.
+
+    Scans a grid and returns the reachable candidate furthest from every other block.
+    Deterministic, so runs stay reproducible.
+    """
+    others = []
+    for name, obj in BlocksState.items():
+        if name == moving_block:
+            continue
+        try:
+            p = obj.get_pos().cpu().numpy()
+        except Exception:
+            p = np.array(obj.get_pos(), dtype=float)
+        others.append(p[:2])
+
+    best, best_score = None, -1.0
+    for x in np.arange(0.32, 0.721, 0.02):
+        for y in np.arange(-0.40, 0.501, 0.02):
+            r = float(np.hypot(x, y))
+            if r < PUTDOWN_R_MIN or r > PUTDOWN_R_MAX:
+                continue
+            if others:
+                d = min(float(np.hypot(x - o[0], y - o[1])) for o in others)
+            else:
+                d = 1.0
+            if d < PUTDOWN_CLEARANCE:
+                continue
+            # Prefer roomy spots, and among equals prefer closer to the robot (easier IK).
+            score = d - 0.15 * r
+            if score > best_score:
+                best_score, best = score, (float(x), float(y), d)
+
+    if best is None:
+        # No clear spot: report it rather than dropping the block onto a neighbour.
+        print(f"[PUTDOWN] WARNING: no free table spot with {PUTDOWN_CLEARANCE*100:.0f} cm "
+              f"clearance for '{moving_block}'; falling back to the least-bad candidate.")
+        return np.array([0.55, 0.0, TABLE_BLOCK_Z])
+
+    x, y, clearance = best
+    print(f"[PUTDOWN] free spot for '{moving_block}': ({x:.3f}, {y:.3f}) "
+          f"r={np.hypot(x, y):.3f} m, nearest block {clearance*100:.1f} cm away")
+    return np.array([x, y, TABLE_BLOCK_Z])
+
+
 def execute_action(franka, scene, BlocksState, action):
     """
     Execute a single action.
@@ -107,9 +162,8 @@ def execute_action(franka, scene, BlocksState, action):
         blk = args[0]
         obj = BlocksState[blk]
 
-        # For simple goals, you might want something smarter.
-        # For Goal 4, this is rarely used; PUTDOWN-AT is preferred.
-        target = np.array([0.55, 0.0, 0.05])
+        # A clear patch, not a fixed point: successive putdowns must not stack.
+        target = find_free_table_spot(BlocksState, blk)
         print(f"[EXEC][PUTDOWN] {blk} at {target}")
         franka.place(target, obj=obj)
         return True
@@ -287,6 +341,7 @@ def run_simple_goals(scene, franka, BlocksState, goal_id, max_iterations=20):
         try:
             for _ in range(settling_steps):
                 scene.step()
+                recording.capture(scene)
         except Exception as e:
             if "Viewer closed" in str(e):
                 print("\n[INFO] Viewer was closed. Exiting demo.")
@@ -323,13 +378,18 @@ def run_goal4(scene, franka, BlocksState):
     print("  - Green hollow square (6 blocks)")
     print("\n" + "=" * 80)
 
-    MAX_STEPS_PER_STRUCTURE = 25
-    ACTIONS_PER_BATCH = 16
+    MAX_STEPS_PER_STRUCTURE = 60
+    # One action per perceive-plan cycle, like goals 1-3. Batching 16 acted on
+    # perception that was 16 actions stale and drove cubes into each other.
+    ACTIONS_PER_BATCH = 1
 
     # ---------------- PHASE 1: Yellow tower ----------------
     print("\n" + "=" * 80)
     print("PHASE 1: Building Yellow Cross Tower")
     print("=" * 80)
+
+    yellow_done = False
+    recent_actions = []
 
     for step_idx in range(MAX_STEPS_PER_STRUCTURE):
         print("\n" + "-" * 80)
@@ -350,6 +410,7 @@ def run_goal4(scene, franka, BlocksState):
 
         if not plan:
             print("\n[INFO] ✓ Yellow tower COMPLETE!")
+            yellow_done = True
             break
 
         print(f"\n[TASK PLAN] ({len(plan)} actions)")
@@ -357,6 +418,15 @@ def run_goal4(scene, franka, BlocksState):
             print(f"  {i}: {step}")
         if len(plan) > 5:
             print(f"  ... and {len(plan) - 5} more")
+
+        recent_actions.append(plan[0])
+        # 3 recurrences in 8 cycles, not 3 in a row: livelocks alternate
+        # PICKUP x / PUTDOWN-AT x and never repeat consecutively.
+        if len([a for a in recent_actions[-8:] if a == plan[0]]) >= 3:
+            print(f"\n[WARNING] Action replanned 3x within 8 cycles with no lasting "
+                  f"effect: {plan[0]}")
+            print("[INFO] Aborting yellow phase to avoid an infinite loop.")
+            break
 
         actions_to_execute = plan[:ACTIONS_PER_BATCH]
         print(f"\n[BATCH EXECUTION] Executing {len(actions_to_execute)} actions...")
@@ -371,6 +441,7 @@ def run_goal4(scene, franka, BlocksState):
 
             for _ in range(20):
                 scene.step()
+                recording.capture(scene)
         else:
             # finished batch with no break, go to next outer iteration
             continue
@@ -383,6 +454,7 @@ def run_goal4(scene, franka, BlocksState):
     print("PHASE 2: Building Green Hollow Square")
     print("=" * 80)
 
+    recent_actions = []
     for step_idx in range(MAX_STEPS_PER_STRUCTURE):
         print("\n" + "-" * 80)
         print(f"GREEN SQUARE - Iteration {step_idx}")
@@ -400,9 +472,14 @@ def run_goal4(scene, franka, BlocksState):
 
         if not plan:
             print("\n[INFO] ✓ Green square COMPLETE!")
-            print("\n" + "=" * 80)
-            print("GOAL 4 FULLY COMPLETED!")
-            print("=" * 80)
+            # Both structures must be done, not just this phase.
+            if yellow_done:
+                print("\n" + "=" * 80)
+                print("GOAL 4 FULLY COMPLETED!")
+                print("=" * 80)
+            else:
+                print("\n[WARNING] Green square done, but the yellow phase did NOT "
+                      "complete, so goal 4 is NOT fully achieved.")
             break
 
         print(f"\n[TASK PLAN] ({len(plan)} actions)")
@@ -410,6 +487,13 @@ def run_goal4(scene, franka, BlocksState):
             print(f"  {i}: {step}")
         if len(plan) > 5:
             print(f"  ... and {len(plan) - 5} more")
+
+        recent_actions.append(plan[0])
+        if len([a for a in recent_actions[-8:] if a == plan[0]]) >= 3:
+            print(f"\n[WARNING] Action replanned 3x within 8 cycles with no lasting "
+                  f"effect: {plan[0]}")
+            print("[INFO] Aborting green phase to avoid an infinite loop.")
+            break
 
         actions_to_execute = plan[:ACTIONS_PER_BATCH]
         print(f"\n[BATCH EXECUTION] Executing {len(actions_to_execute)} actions...")
@@ -424,6 +508,7 @@ def run_goal4(scene, franka, BlocksState):
 
             for _ in range(20):
                 scene.step()
+                recording.capture(scene)
         else:
             continue
 
@@ -461,7 +546,47 @@ if __name__ == "__main__":
         choices=[1, 2],
         help="Initial scene for Goals 1-3 (1: scattered, 2: stacked tower)",
     )
+    parser.add_argument(
+        "--headless",
+        action="store_true",
+        help="Run without the interactive viewer and exit when finished (for automated verification)",
+    )
+    parser.add_argument(
+        "--video",
+        type=str,
+        default=None,
+        help="Path to write an mp4 of the run, e.g. runs/goal1/run.mp4",
+    )
+    parser.add_argument(
+        "--video-res",
+        type=str,
+        default="960x540",
+        help="Recording resolution as WxH (default 960x540)",
+    )
+    parser.add_argument(
+        "--video-every",
+        type=int,
+        default=4,
+        help=(
+            "Capture one frame every N simulation steps (default 4 = 25 fps of sim time). "
+            "Genesis buffers every frame in RAM until the video is encoded, so long runs "
+            "must use a larger value: goal 4 at the default was OOM-killed after ~25 min, "
+            "having buffered roughly 18000 frames (~12 GB at 640x360)."
+        ),
+    )
     args = parser.parse_args()
+
+    # Configure recording before the scene is built; scenes.py reads this to decide
+    # whether to open a viewer and whether to attach an offscreen camera.
+    _w, _h = (int(v) for v in args.video_res.lower().split("x"))
+    if args.video:
+        os.makedirs(os.path.dirname(os.path.abspath(args.video)), exist_ok=True)
+    recording.configure(
+        headless=args.headless,
+        video_path=args.video,
+        res=(_w, _h),
+        every=args.video_every,
+    )
 
     # Initialize Genesis
     backend = gs.gpu if args.backend == "gpu" else gs.cpu
@@ -481,6 +606,10 @@ if __name__ == "__main__":
         else:
             print("[INFO] Using Scene 2: Six blocks pre-stacked in tower")
             scene, franka_raw, BlocksState = create_scene_stacked()
+
+    # Begin recording (no-op unless --video was given). Must follow scene.build(),
+    # which the scene factories have already done.
+    recording.start(scene)
 
     # Wrap robot in adapter
     franka = RobotAdapter(franka_raw, scene)
@@ -510,10 +639,22 @@ if __name__ == "__main__":
             max_iterations=args.max_iterations,
         )
 
-    # Keep viewer open
-    print("\n[INFO] Keeping viewer open. Press Ctrl+C to exit.")
-    try:
-        while True:
-            scene.step()
-    except KeyboardInterrupt:
-        print("\n[INFO] Shutting down...")
+    # Settle so the video ends on the final state, not mid-motion.
+    for _ in range(300):
+        scene.step()
+        recording.capture(scene)
+
+    video_path = recording.finish(scene)
+
+    if args.headless:
+        # Automated runs must terminate so the exit code is meaningful.
+        print("\n[INFO] Headless run complete.")
+        if video_path:
+            print(f"[INFO] Video: {video_path}")
+    else:
+        print("\n[INFO] Keeping viewer open. Press Ctrl+C to exit.")
+        try:
+            while True:
+                scene.step()
+        except KeyboardInterrupt:
+            print("\n[INFO] Shutting down...")
